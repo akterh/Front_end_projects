@@ -1,6 +1,39 @@
+$body-bg : #333;
+$font-color: #fff;
+$priamary-color :#008ed6;
+$icon-font-size:30px;
+body{
+    background:$body-bg;
+    color:$font-color;
+}
 
 .navbar{
     border-bottom : 3px solid #008ed6;
     background: #292b2c;
     opacity: 0.7;
 }  
+#home-section{
+    background :  url(../img/home.jpg) no-repeat center top;
+    background-size : cover;
+    min-height: 800px;
+    background-attachment: fixed;
+    
+.dark-overlay{
+    background : rgba(0,0,0,0.7);
+    min-height :800px;
+}
+.fa{
+    background:$font-color;
+    color:$priamary-color;
+    font-size:$icon-font-size;
+    padding: 5px;
+    border-radius: 3px;
+}
+.card-form{
+    opacity :0.5;
+}
+.home-inner{
+    padding-top:120px;
+    padding-bottom: 50px;
+}
+}
